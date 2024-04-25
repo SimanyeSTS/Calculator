@@ -9,12 +9,13 @@
     display: none;
 }
 body {
-    background-color: blue;
+    background-color:royalblue;
+    image-rendering: auto;
     }
 .calculator {
     width: 200px;
     margin: 50px auto;
-    border: 1px solid royalblue
+    border: 1px solid black
 }
 /*adding screen info*/
 #display {
@@ -27,10 +28,11 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    border: 10px black;
+    border: 10px whitesmoke;
 }
 
 .buttons {
     padding: 10px;
     font-size: 16px;
+    margin-inline: 20px gold;
 }
