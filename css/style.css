@@ -1,3 +1,16 @@
+*,
+*::before, 
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body {
+    background-color: blue;
+    }
 .calculator {
     width: 200px;
     margin: 50px auto;
@@ -13,14 +26,11 @@
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 5px;
+    grid-gap: 10px;
+    border: 10px black;
 }
 
-button {
+.buttons {
     padding: 10px;
     font-size: 16px;
-}
-*,
-*body {
-background-color: blue;
 }
